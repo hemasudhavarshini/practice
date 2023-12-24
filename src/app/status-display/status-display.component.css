@@ -1,0 +1,52 @@
+.img1{
+    padding: 18px;
+    border:2px solid #cea90f;
+    border-radius: 50%;
+}
+.img2{
+        border:2px solid #237bbe;
+    padding: 18px;
+    border-radius: 50%;
+}
+.img3{
+    border:2px solid #07c1f4;
+    padding: 18px;
+    border-radius: 50%;
+}
+.img4{
+    border:2px solid #8364a6;
+    padding: 18px;
+    border-radius: 50%;
+
+}
+.img5{
+    border:2px solid #0fb280;
+    padding: 18px;
+    border-radius: 50%;
+
+}
+.imageContainer{
+    display: flex;
+    flex-direction: column; 
+    width: 60%;
+    border:1px solid black;
+    padding: 20px;
+}
+.innerContiner1{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding: 20px;
+}
+.innerContiner2{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding: 20px;
+}
+.innerContiner3{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding: 20px;
+}

@@ -1,0 +1,108 @@
+<p-panel>
+    <ng-template pTemplate="header">
+        <div style="display: flex; justify-content: space-between;margin-left: 50px; align-items: center;width:100%">
+            <div style="display: flex;gap:6px">
+                <img [style]="{'height':'40px'}"
+                    src="https://es-media-prod.s3.amazonaws.com/media/supplier/logo/source/AxiabyQcells_Primary_Logo_Full_Color_RGB_973199592d96b19e688b1f497086e85d.png" />
+                <hr>
+                <h3 style="margin: 0;">System Monitoring</h3>
+            </div>
+            <div>
+                <h5>Coroline Hostin | 212 Colordo Drive,Colordo co</h5>
+            </div>
+        </div>
+    </ng-template>
+    <div class="sidebar">
+        <div class="icon">
+            <img src="https://cdn-icons-png.flaticon.com/512/5602/5602186.png" />
+        </div>
+        <div class="icon">
+            <img src="https://cdn-icons-png.flaticon.com/512/25/25694.png" />
+        </div>
+        <div class="icon">
+            <img src="https://cdn-icons-png.flaticon.com/512/1250/1250680.png" />
+        </div>
+        <div class="icon">
+            <img src="https://cdn-icons-png.flaticon.com/512/7546/7546214.png" />
+        </div>
+        <div class="icon">
+            <img src="https://cdn-icons-png.flaticon.com/512/3067/3067260.png" />
+        </div>
+    </div>
+    <div class="navbar" style="width:100%">
+        <div style="width:50%">
+            <ul>
+                <li><a class="aone" routerLink="/hivecharts" routerLinkActive="active">Live Status</a></li>
+                <li><a class="aone" href="#news">Graph</a></li>
+                <li><a class="aone" href="#contact">Profile</a></li>
+            </ul>
+        </div>
+        <div class="rightvalues" style="display: flex; width:50%">
+            
+                <p class="hone"> {{weatherName}} {{temperature}} |</p>
+                <p class="htwo"> sunset in 2h 30mins</p>
+            
+            <div class="imgcontainer">
+                <img class="downimage" (click)="togglePopup()"
+                    src="https://cdn-icons-png.flaticon.com/128/3759/3759325.png" />
+            </div>
+
+        </div>
+        <div>
+
+        </div>
+    </div>
+    <div>
+        <div class="popupModal">
+        <app-weather *ngIf="popupVisible"></app-weather>
+    </div>
+
+        <!-- <p-card header="Self-Powered Summary">
+    <highcharts-chart
+  [Highcharts]="Highcharts" 
+  [options]="chartOptions"
+  style="width: 40%; height: 300px; display: block;border:1px solid black;margin-left: 20px;"
+  
+></highcharts-chart>
+</p-card> -->
+<div class="parent-container">
+    <div class="row-1">
+        <div style="width: 35%">
+            <app-production></app-production>
+
+
+        </div>
+        <div style="width:30%;">
+            <app-statusvalues></app-statusvalues>
+        </div>
+        <div style="width:30%">
+            <app-donut-self></app-donut-self>
+        </div>
+       
+       
+    </div>
+    <div class="row-2">
+        
+        <div style="width:30%">
+            <app-semidonut></app-semidonut>
+        </div>
+    </div>
+</div>
+        <!-- <app-real-time-status></app-real-time-status> -->
+        <app-status-display></app-status-display>
+         <!-- <div class="ma-in">
+          <p>{{name}} </p>
+          <iframe width="100%" height="100%" frameBorder="0" [src]="urlSafe"></iframe>
+          </div>  -->   `                                                                                                                                                                   
+    </div> 
+    <!-- <div>
+        <h2>{{ name }}</h2>
+        <button (click)="togglePopup()">Toggle Popup</button>
+        <button (click)="openInIframe()">Open in Iframe</button>
+      </div> -->
+      
+      <!-- <div class="modal-body" style="overflow: hidden;">
+        <iframe id="myIframe" [src]="urlSafe" width="900" height="450" frameborder="0" allowfullscreen name="iframe_a">Business Card</iframe>
+      </div> -->
+      
+</p-panel>

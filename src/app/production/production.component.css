@@ -1,0 +1,94 @@
+.container{
+    display: flex;
+    background-color: gainsboro;
+    justify-content: space-evenly;
+    text-align: center;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    border-top: 8px solid gainsboro; /* Add a border to the top */
+    border-bottom: 8px solid gainsboro;
+    border-radius: 10px;
+}
+.onecon{
+    background-color: white;
+    
+    
+}
+.container p{
+    margin: 0px;
+    padding: 0px;
+}
+.footer{
+    font-size: 16px;
+    font-weight: 600;
+    color: black;
+    text-decoration: underline;
+    float: right;
+    margin-top: -4px;
+
+}
+.header{
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: -20px;
+    
+}
+.para1{
+    font-size: 14px;
+    font-weight: 600;
+}
+.para3{
+    font-size: 14px;
+    font-weight: 600;
+}
+.para5{
+    font-size: 14px;
+    font-weight: 600;
+}
+.para7{
+    font-size: 14px;
+    font-weight: 600;
+}
+.para2{
+    font-size: 16px;
+    font-weight: 700;
+    color: green;
+
+
+}
+.para4{
+    font-size: 16px;
+    font-weight: 700;
+    color: green;
+
+
+}
+.para6{
+    font-size: 16px;
+    font-weight: 700;
+    color: green;
+
+
+}
+.para8{
+    font-size: 16px;
+    font-weight: 700;
+    color: green;
+
+}
+.para2 span{
+    font-size: 14px;
+    font-weight: 500;
+}
+.para4 span{
+    font-size: 14px;
+    font-weight: 500;
+}
+.para6 span{
+    font-size: 14px;
+    font-weight: 500;
+}
+.para8 span{
+    font-size: 14px;
+    font-weight: 500;
+}

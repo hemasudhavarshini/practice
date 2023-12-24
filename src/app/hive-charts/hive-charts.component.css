@@ -1,0 +1,112 @@
+::ng-deep .p-panel-header{
+    width: 100%;
+    height: 78px;
+    background-color: white;
+  }
+
+  .ui-panel .ui-panel-content {
+    padding: 0;
+}
+.sidebar .icon img {
+    height: 30px !important;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .sidebar {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 40px;
+    background-color: white;
+    color: #fff;
+    margin-left: -20px !important;
+    margin-top: -60px !important;
+
+  }
+  .navbar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: -220px;
+    margin-left: 20px !important;
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-decoration: none !important;
+  }
+  
+  li {
+    display: inline;
+    text-decoration: none !important;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: black !important;
+  }
+  .aone{
+    text-decoration: none;
+    color: black;
+  }
+  .hone{
+    font-size: 12px;
+    font-weight: bold;
+  }
+  .htwo{
+    font-size: 12px;
+  }
+  .chart-container .highcharts-title {
+    margin-left: -200px; 
+  }
+  .title.style{
+    margin-left: -200px;
+
+  }
+  .rightvalues{
+    justify-content: flex-end;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding-right: 20px;
+  }
+  .downimage{
+    height: 20px;
+  }
+  /* your-component.component.css */
+
+/* your-component.component.css */
+.popupModal{
+  box-shadow: 0 0 1px grey;
+  width: 22vw;
+  position: absolute;
+  right: 20px;
+  z-index: 1;
+}
+.container {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  padding-left: 100px; 
+}
+
+.downimage {
+  cursor: pointer;
+}
+.row-1{
+  width:100%;
+  display: flex;
+  gap:20px;
+  justify-content: flex-end;
+}
+.row-2{
+  width:100%;
+  display: flex;
+  justify-content: flex-end;
+}
+.parent-container{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}

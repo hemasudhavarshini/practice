@@ -1,0 +1,121 @@
+.img1{
+    width:px;
+    height: 16px;
+    margin-right: 8px;
+}
+.datevalue{
+    display: flex;
+    margin-top: -10px;
+}
+.img2{
+    height: 16px;
+    width: 16px;
+    margin-right: 8px;
+}
+.location{
+    display: flex;
+    margin-top: -5px;
+}
+.img3{
+    width: 50px;
+    margin-right: 8px;
+}
+.para1,.para2{
+    margin-top: -2px;
+}
+.para3{
+    margin-top: -2px;
+}
+.para4{
+    font-size: 24px;
+    font-weight: 500;
+}
+.temperature{
+    display: flex;
+    margin-top: -5px;
+    
+}
+.para4{
+    margin: 0px;
+}
+.para5{
+    margin: 0px;
+    font-size: 12px;
+    font-weight: 500;
+}
+.para6{
+    font-weight: 600;
+}
+.para8{
+    margin-left: 4px;
+    font-weight: 600;
+}
+.time{
+    display: flex;
+    background-color: #F0F0F0;
+}
+.bcontainer{
+    display: flex;
+    justify-content: space-between;
+}
+.img4{
+    height: 20px;
+}
+.img5{
+    height:20px;
+}
+.img6{
+    height: 20px;
+}
+.valuep1{
+    font-size: 12px;
+}
+.valuep2{
+    font-size: 12px;
+}
+.valuep3{
+    font-size: 12px;
+}
+.card{
+    padding-left: 6px;
+    padding-right: 6px;
+    background-color: white;
+
+}
+.time{
+    padding-left: 6px;
+    padding-right: 6px;   
+    align-items: center;
+    border-radius: 10px ;
+    text-align: center !important;
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.one{
+    justify-content: center;
+    text-align: center;
+}
+.two{
+    justify-content: center;
+    text-align: center;
+
+}
+.three{
+    justify-content: center;
+    text-align: center;
+}
+.headcontainer{
+    justify-content: space-between;
+    display: flex;
+}
+.para7{
+    font-size: 14px;
+}
+.para8{
+    font-size: 14px;
+}
+.time p{
+    margin: 5px;
+}

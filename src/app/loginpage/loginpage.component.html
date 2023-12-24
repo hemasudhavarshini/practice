@@ -1,0 +1,49 @@
+<p-panel >
+    <ng-template pTemplate="header">
+      <div style="display: flex; justify-content: space-between; align-items: center;width:100%">
+        <img [style]="{'height':'30px'}" src="https://es-media-prod.s3.amazonaws.com/media/supplier/logo/source/AxiabyQcells_Primary_Logo_Full_Color_RGB_973199592d96b19e688b1f497086e85d.png" />
+        <h3 style="margin: 0;">Questions 888-550-7512</h3>
+      </div>
+    </ng-template>
+<div class="center-container">
+    <p-card [style]="{ width: '700px', height: '500px' }">
+      <h3 class="center-header">Monitoring Portal Login</h3>
+      <div class="total-container">
+        <form [formGroup]="loginForm" class="formgrp">
+          <div class="card flex justify-content-center align-items-center">
+            <div class="flex flex-column gap-2">
+              <label htmlFor="username">Email</label><br>
+              <input pInputText id="username" aria-describedby="username-help" formControlName="email" [style]="{ width: '450px', 'margin-bottom': '18px' }" />
+              <div *ngIf="loginForm.get('email')?.hasError('required') && loginForm.get('email')?.touched" style="color: red; text-align: center;">
+                Email is required.
+              </div>
+            </div>
+          </div>
+          <div class="card flex justify-content-center align-items-center">
+            <div class="flex flex-column gap-2">
+              <label htmlFor="password" class="pwdlabel">Password</label><br>
+              <div class="password-container" [style]="{ width: '100%' }">
+                <p-password class="passwordval" [style]="{'width':'100%'}"  [toggleMask]="true" formControlName="password"></p-password>
+              </div>
+              <div *ngIf="loginForm.get('password')?.hasError('required') && loginForm.get('password')?.touched" style="color: red; text-align: center;">
+                Password is required.
+              </div>
+            </div>
+          </div>
+        </form>
+        <div class="center-content flex">
+          <a routerLink="/password" routerLinkActive="active">Forgot Password</a>
+          <p-button class="loginbtn" routerLink="/hivecharts" routerLinkActive="active" label="Login" severity="warning">
+
+          </p-button>
+        </div>
+      </div>
+    </p-card>
+  </div>
+  <ng-template [style]="{'border':'none'}" pTemplate="footer">
+    <img [style]="{'height':'30px','float':'right'}" src="https://es-media-prod.s3.amazonaws.com/media/supplier/logo/source/AxiabyQcells_Primary_Logo_Full_Color_RGB_973199592d96b19e688b1f497086e85d.png" />
+ 
+
+     </ng-template>
+
+</p-panel>

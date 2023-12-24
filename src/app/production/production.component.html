@@ -1,0 +1,35 @@
+<div>
+<p-card  >
+<p class="header">Production</p>
+<div class="container">
+    <div class="onecon">
+        <p class="para1">Today</p>
+        <p class="para2">40.35 <span>kwh</span></p>
+    </div>
+    <div class="twocon">
+        <p class="para3">Monthly</p>
+        <p class="para4">100.5 <span>kwh</span></p>
+    </div>
+    <div class="threecon">
+        <p class="para5">Annually</p>
+        <p class="para6">260.98 <span>kwh</span></p>
+    </div>
+    <div class="fourcon">
+        <p class="para7">LifeTime</p>
+        <p class="para8">600.35 <span>kwh</span></p>
+    </div>
+</div>
+<highcharts-chart
+  style="width: 95%; height: 199px; display: block"
+  [Highcharts]="Highcharts"
+  [options]="chartOptions"
+  [runOutsideAngular]="true"
+  [oneToOne]="true"
+>
+
+</highcharts-chart>
+<div>
+    <p class="footer">Detailed Graph</p>
+</div>
+</p-card>
+</div>
